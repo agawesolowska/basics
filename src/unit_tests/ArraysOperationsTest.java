@@ -111,7 +111,7 @@ public class ArraysOperationsTest {
 	}
 
 	@Test
-	public void testFindAllDivisible() {
+	public void testFindAllDivisibleInArrays() {
 		List<Integer> emptyList = Arrays.asList();
 		List<Integer> expectedInCaseOfArray3 = Arrays.asList(-5, 0);
 		
@@ -127,7 +127,7 @@ public class ArraysOperationsTest {
 	}
 
 	@Test
-	public void testFindAllSharedElements() {
+	public void testFindAllSharedElementsInArrays() {
 		List<Integer> emptyList = Arrays.asList();
 		List<Integer> expectedInCaseOfArrays2And3 = Arrays.asList(1, 8, 6, 7);
 		
