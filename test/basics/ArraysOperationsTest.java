@@ -17,7 +17,7 @@ public class ArraysOperationsTest {
 	private static int[] array3;
 
 	@BeforeClass
-	public static void setUp() {
+	public static void setUpBeforeClass() {
 		xParameter = 5;
 		array1 = new int[] {};
 		array2 = new int[] { 2, 1, 9, 8, 6, 3, 7 };
