@@ -5,17 +5,19 @@ import static org.junit.Assert.*;
 import java.util.Arrays;
 import java.util.List;
 
-import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class ArraysOperationsTest {
 	// unit tests of arrays operations
 
-	private int xParameter;
-	private int[] array1, array2, array3;
+	private static int xParameter;
+	private static int[] array1;
+	private static int[] array2;
+	private static int[] array3;
 
-	@Before
-	public void setUp() {
+	@BeforeClass
+	public static void setUp() {
 		xParameter = 5;
 		array1 = new int[] {};
 		array2 = new int[] { 2, 1, 9, 8, 6, 3, 7 };
@@ -83,7 +85,7 @@ public class ArraysOperationsTest {
 		List<Integer> emptyList = Arrays.asList();
 		List<Integer> expectedInCaseOfArray2 = Arrays.asList(9, 8, 6, 7);
 		List<Integer> expectedInCaseOfArray3 = Arrays.asList(6, 7, 8);
-		
+
 		assertEquals(emptyList, ArraysOperations.findAllLarger(array1, xParameter));
 		assertEquals(expectedInCaseOfArray2, ArraysOperations.findAllLarger(array2, xParameter));
 		assertEquals(expectedInCaseOfArray3, ArraysOperations.findAllLarger(array3, xParameter));
@@ -114,7 +116,7 @@ public class ArraysOperationsTest {
 	public void testFindAllDivisibleInArrays() {
 		List<Integer> emptyList = Arrays.asList();
 		List<Integer> expectedInCaseOfArray3 = Arrays.asList(-5, 0);
-		
+
 		assertEquals(emptyList, ArraysOperations.findAllDivisible(array1, xParameter));
 		assertEquals(emptyList, ArraysOperations.findAllDivisible(array2, xParameter));
 		assertEquals(expectedInCaseOfArray3, ArraysOperations.findAllDivisible(array3, xParameter));
@@ -130,7 +132,7 @@ public class ArraysOperationsTest {
 	public void testFindAllSharedElementsInArrays() {
 		List<Integer> emptyList = Arrays.asList();
 		List<Integer> expectedInCaseOfArrays2And3 = Arrays.asList(1, 8, 6, 7);
-		
+
 		assertEquals(emptyList, ArraysOperations.findAllSharedElements(array1, array2));
 		assertEquals(expectedInCaseOfArrays2And3, ArraysOperations.findAllSharedElements(array2, array3));
 	}
