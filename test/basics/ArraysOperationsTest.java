@@ -8,8 +8,13 @@ import java.util.List;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+/**
+ * Unit tests of arrays operations.
+ * 
+ * @author Aga
+ *
+ */
 public class ArraysOperationsTest {
-	// unit tests of arrays operations
 
 	private static int xParameter;
 	private static int[] array1;

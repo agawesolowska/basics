@@ -2,8 +2,13 @@ package basics;
 
 import java.math.BigInteger;
 
+/**
+ * Container for math functions
+ * 
+ * @author Aga
+ *
+ */
 public class MathFunctions {
-	// container for math functions
 
 	public static int numberLength(long number) {
 		int i = 0;

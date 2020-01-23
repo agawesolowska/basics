@@ -3,6 +3,12 @@ package basics;
 import java.util.Locale;
 import java.util.Scanner;
 
+/**
+ * Simple triangle area calculator.
+ * 
+ * @author Aga
+ *
+ */
 public class TriangleArea {
 
 	static double halfCircumferenceOfTriangle(double lengthA, double lengthB, double lengthC) {
@@ -10,7 +16,6 @@ public class TriangleArea {
 	}
 
 	public static void main(String[] args) {
-		// simple triangle area calculator
 
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);

@@ -1,5 +1,11 @@
 package basics;
 
+/**
+ * Simple BMI calculator (command-line-interface).
+ * 
+ * @author Aga
+ *
+ */
 public class BmiCalculator {
 
 	static double computeBMI(int heightInCm, int weightInKg) {
@@ -8,7 +14,6 @@ public class BmiCalculator {
 	}
 
 	public static void main(String[] args) {
-		// BMI calculator
 
 		int height = Integer.parseInt(args[0]);
 		int weight = Integer.parseInt(args[1]);

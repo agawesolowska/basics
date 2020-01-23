@@ -6,8 +6,13 @@ import java.math.BigInteger;
 
 import org.junit.Test;
 
+/**
+ * Unit tests of math functions.
+ * 
+ * @author Aga
+ *
+ */
 public class MathFunctionsTest {
-	// unit tests of math functions
 
 	@Test
 	public void testNumberLength() {

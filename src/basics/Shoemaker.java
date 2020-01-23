@@ -2,6 +2,12 @@ package basics;
 
 import java.util.Scanner;
 
+/**
+ * It's only a shoemaker deadline.
+ * 
+ * @author Aga
+ *
+ */
 public class Shoemaker {
 
 	static int dayOfTheWeek(int dayNumber, int timeInDays) {
@@ -31,7 +37,6 @@ public class Shoemaker {
 	}
 
 	public static void main(String[] args) {
-		// shoemaker deadline
 
 		Scanner sc = new Scanner(System.in);
 		System.out.println(

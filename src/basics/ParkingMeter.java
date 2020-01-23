@@ -2,6 +2,12 @@ package basics;
 
 import java.util.Scanner;
 
+/**
+ * Simple parking meter app.
+ * 
+ * @author Aga
+ *
+ */
 public class ParkingMeter {
 
 	static int toPay(int hours) {
@@ -10,7 +16,6 @@ public class ParkingMeter {
 	}
 
 	public static void main(String[] args) {
-		// simple parking meter app
 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Ile godzin bedziesz parkował?");

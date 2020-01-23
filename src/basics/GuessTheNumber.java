@@ -3,10 +3,15 @@ package basics;
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ * Guess the number from 0 to 999.
+ * 
+ * @author Aga
+ *
+ */
 public class GuessTheNumber {
 
 	public static void main(String[] args) {
-		// guess the number from 0 to 999
 
 		Scanner sc = new Scanner(System.in);
 		Random random = new Random();

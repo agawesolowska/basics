@@ -3,8 +3,13 @@ package basics;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Container for arrays operations.
+ * 
+ * @author Aga
+ *
+ */
 public class ArraysOperations {
-	// container for arrays operations
 
 	public static int calculateSum(int[] array) {
 		int sum = 0;

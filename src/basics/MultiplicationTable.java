@@ -3,6 +3,12 @@ package basics;
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ * Let's check if you know the multiplication table.
+ * 
+ * @author Aga
+ *
+ */
 public class MultiplicationTable {
 
 	static int multiply(int no1, int no2) {
@@ -10,7 +16,6 @@ public class MultiplicationTable {
 	}
 
 	public static void main(String[] args) {
-		// Do you know multiplication table?
 
 		Scanner sc = new Scanner(System.in);
 		Random random = new Random();
